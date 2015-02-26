@@ -19,6 +19,7 @@ class GeometryField(WritableField):
     A field to handle GeoDjango Geometry fields
     """
     type_name = 'GeometryField'
+    type_label = 'geometry'
     widget = TextareaWidget
 
     def to_native(self, value):
